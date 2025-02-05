@@ -14,25 +14,61 @@ const PublicRoutes = [
     exact: true,
   },
 
- 
-
- 
-
   // All the public routes
 ];
 
 const PrivateRoutes = [
   {
     path: "/",
-    title:"Dashboard",
+    title: "Dashboard",
     component: lazy(() => import("../pages/Dashboard/index")),
     exact: true,
     defaultAccess: true,
   },
-  
+  {
+    path: "/user-management",
+    title: "Dashboard",
+    component: lazy(() => import("../pages/Dashboard/index")),
+    exact: true,
+    defaultAccess: true,
+  },
+  {
+    path: "/loan-management",
+    title: "Dashboard",
+    component: lazy(() => import("../pages/Dashboard/index")),
+    exact: true,
+    defaultAccess: true,
+  },
+  {
+    path: "/faq-management",
+    title: "Dashboard",
+    component: lazy(() => import("../pages/Dashboard/index")),
+    exact: true,
+    defaultAccess: true,
+  },
+  {
+    path: "/sports",
+    title: "Dashboard",
+    component: lazy(() => import("../pages/Dashboard/index")),
+    exact: true,
+    defaultAccess: true,
+  },
+  {
+    path: "/treatment-plan-management",
+    title: "Dashboard",
+    component: lazy(() => import("../pages/Dashboard/index")),
+    exact: true,
+    defaultAccess: true,
+  },
+  {
+    path: "/",
+    title: "Dashboard",
+    component: lazy(() => import("../pages/Dashboard/index")),
+    exact: true,
+    defaultAccess: true,
+  },
 
- // All the private routes
-
+  // All the private routes
 ];
 
 export { PublicRoutes, PrivateRoutes };

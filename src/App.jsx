@@ -1,5 +1,5 @@
 import { Suspense, useState } from 'react'
-import './App.css'
+import './App.scss'
 import { Route, Routes } from 'react-router-dom'
 import { PrivateRoutes, PublicRoutes } from './routes'
 import AuthLayout from './components/Layouts/AuthLayout'
@@ -44,7 +44,7 @@ function App() {
           );
         })}
       </Route>
-      <Route path="*" element={<div>Not Found</div>} />
+      <Route path="*" element={<div>Not Found 2323</div>} />
     </Routes>
     
     </>
